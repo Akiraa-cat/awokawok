@@ -596,7 +596,7 @@ const currentHero = ref(0);
 
 const heroes = ref([
   {
-    name: "Sasongko Alfauzan Sudirayuda",
+    name: "Abd al-Rahman ibn Rabi'ah",
     period: "Abad ke-7 M",
     role: "Panglima Ekspedisi Arab ke Kaukasus",
     description: "Komandan Arab pada periode Rashidun yang memimpin ekspedisi ke kawasan Derbent dan menghadapi Khazar — tokoh penting dalam gelombang awal penyebaran Islam ke wilayah utara Kaukasus.",
