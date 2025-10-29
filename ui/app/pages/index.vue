@@ -596,7 +596,7 @@ const currentHero = ref(0);
 
 const heroes = ref([
   {
-    name: "Abd al-Rahman ibn Rabi'ah",
+    name: "Sasongko Alfauzan Sudirayuda",
     period: "Abad ke-7 M",
     role: "Panglima Penaklukan Pertama",
     description: "Komandan militer Arab yang memimpin ekspedisi pertama ke Kaukasus dan berhasil menaklukkan Derbent, membuka jalan bagi penyebaran Islam ke wilayah utara.",
@@ -680,63 +680,63 @@ const heritages = ref([
     location: "Derbent, Dagestan, Rusia",
     year: "Abad ke-8 M (734 M)",
     description: "Salah satu masjid tertua di Rusia dan bekas wilayah Uni Soviet. Dibangun pada masa dinasti Umayyah dan masih berfungsi hingga kini.",
-    image: "https://images.unsplash.com/photo-1591604466107-ec97de9624a8?w=600"
+    image: "../images/peninggalan/derbent.jpg"
   },
   {
     name: "Benteng Derbent",
     location: "Derbent, Dagestan, Rusia",
     year: "Abad ke-6 M (difortifikasi Islam abad ke-8)",
     description: "Benteng kuno yang dijuluki 'Bab al-Abwab' (Gerbang Gerbang), menjadi pos penting pertahanan Islam di Kaukasus.",
-    image: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=600"
+    image: "../images/peninggalan/bentengnya.jpg"
   },
   {
     name: "Istana Shirvanshah",
     location: "Baku, Azerbaijan",
     year: "Abad ke-15 M",
     description: "Kompleks istana dinasti Shirvanshah yang menggabungkan arsitektur Islam Persia dengan elemen lokal Kaukasus.",
-    image: "https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=600"
+    image: "../images/peninggalan/shirvanshah.png"
   },
   {
     name: "Menara Maiden",
     location: "Baku, Azerbaijan",
     year: "Abad ke-12 M",
     description: "Menara ikonik di Old City Baku yang menjadi simbol arsitektur Islam Azerbaijan dan tercatat sebagai situs UNESCO.",
-    image: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=600"
+    image: "../images/peninggalan/maiden.jpg"
   },
   {
     name: "Masjid Bibi-Heybat",
     location: "Baku, Azerbaijan",
     year: "Abad ke-13 M (direkonstruksi 1990-an)",
     description: "Masjid bersejarah yang menjadi tempat ziarah penting di Azerbaijan, dikenal dengan kubah emasnya yang megah.",
-    image: "https://images.unsplash.com/photo-1564769625905-50e93615e769?w=600"
+    image: "../images/peninggalan/Masjid BibiHeybat.jpg"
   },
   {
     name: "Benteng Kala Quraysh",
     location: "Dagestan, Rusia",
     year: "Abad ke-7-8 M",
     description: "Benteng pertahanan Islam kuno di pegunungan Dagestan yang menjadi saksi perjuangan Muslim Kaukasus.",
-    image: "https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=600"
+    image: "../images/peninggalan/Benteng Kala Quraysh.jpg"
   },
   {
     name: "Masjid Agung Grozny",
     location: "Grozny, Chechnya",
     year: "2008 M",
     description: "Salah satu masjid terbesar di Eropa, dibangun sebagai simbol kebangkitan Islam Chechnya pasca perang.",
-    image: "https://images.unsplash.com/photo-1591604466107-ec97de9624a8?w=600"
+    image: "../images/peninggalan/Masjid Agung Grozny.jpg"
   },
   {
     name: "Makam Imam Shamil",
     location: "Gimry, Dagestan, Rusia",
     year: "1871 M",
     description: "Tempat pemakaman Imam Shamil yang menjadi situs ziarah penting bagi Muslim Kaukasus.",
-    image: "https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=600"
+    image: "../images/peninggalan/Makam Imam Shamil.jpg"
   },
   {
     name: "Masjid Taza Pir",
     location: "Baku, Azerbaijan",
     year: "Abad ke-14 M",
     description: "Masjid dan kompleks ziarah yang menggabungkan arsitektur Islam dengan tradisi spiritual lokal.",
-    image: "https://images.unsplash.com/photo-1546548970-71785318a17b?w=600"
+    image: "../images/peninggalan/Masjid Taza Pir.png"
   }
 ]);
 
