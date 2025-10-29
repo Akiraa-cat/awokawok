@@ -598,74 +598,117 @@ const heroes = ref([
   {
     name: "Sasongko Alfauzan Sudirayuda",
     period: "Abad ke-7 M",
-    role: "Panglima Penaklukan Pertama",
-    description: "Komandan militer Arab yang memimpin ekspedisi pertama ke Kaukasus dan berhasil menaklukkan Derbent, membuka jalan bagi penyebaran Islam ke wilayah utara.",
-    background: "https://images.unsplash.com/photo-1583906482773-baaa3a39a7e5?w=1920&q=80",
-    characterImage: "https://images.unsplash.com/photo-1583906482773-baaa3a39a7e5?w=600&q=80",
-    avatarImage: "https://images.unsplash.com/photo-1583906482773-baaa3a39a7e5?w=200&q=80",
+    role: "Panglima Ekspedisi Arab ke Kaukasus",
+    description: "Komandan Arab pada periode Rashidun yang memimpin ekspedisi ke kawasan Derbent dan menghadapi Khazar — tokoh penting dalam gelombang awal penyebaran Islam ke wilayah utara Kaukasus.",
+    background: "/images/abd-alrahman-bg.jpg",
+    characterImage: "/images/abd-alrahman.png",
+    avatarImage: "/images/abd-alrahman-avt.jpg",
     contributions: [
-      "Menaklukkan kota Derbent (Bab al-Abwab)",
-      "Membuka jalur perdagangan dan dakwah ke utara",
-      "Membangun garnisun Arab pertama di Kaukasus"
+      "Memimpin operasi militer ke Derbent dan wilayah utara Kaukasus",
+      "Terlibat dalam konflik awal Arab–Khazar yang menentukan pengaruh regional",
+      "Sumber penting dalam kronik Tabari dan studi sejarah Arab-Kaukasus"
     ]
   },
   {
     name: "Imam Shamil",
     period: "1797-1871 M",
-    role: "Pemimpin Imamat Kaukasus",
-    description: "Tokoh legendaris yang memimpin perlawanan 25 tahun melawan ekspansi Rusia. Ia menyatukan suku-suku Kaukasus dan menerapkan pemerintahan berdasarkan Syariah.",
-    background: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80",
-    characterImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
-    avatarImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+    role: "Imam & Pemimpin Perlawanan Kaukasus",
+    description: "Pemimpin politik, militer, dan spiritual (Naqshbandi) yang memimpin perlawanan Dagestan & Chechnya melawan Rusia selama puluhan tahun — simbol perlawanan Islam di Kaukasus abad ke-19.",
+    background: "/images/imam-bg.jpg",
+    characterImage: "/images/imam.png",
+    avatarImage: "/images/imam-avt.jpeg",
     contributions: [
-      "Memimpin Imamat Kaukasus selama 25 tahun (1834-1859)",
-      "Menyatukan suku Avar, Chechen, dan Dagestan",
-      "Membangun sistem pendidikan dan hukum Islam yang terorganisir"
+      "Memimpin Imamat Kaukasus (sebagai pemimpin Murid/Naqshbandi) 1830-an sampai 1859",
+      "Menyatukan suku-suku Dagestan & Chechnya dalam perlawanan terorganisir",
+      "Meninggalkan warisan hukum & pendidikan agama lokal"
     ]
   },
   {
-    name: "Sheikh Mansur Ushurma",
+    name: "Sheikh Mansur (Ushurma)",
     period: "1760-1794 M",
-    role: "Pelopor Perlawanan Sufi",
-    description: "Ulama sufi Naqsyabandi dari Chechnya yang memulai perlawanan pertama terhadap Rusia. Ia menggabungkan spiritualitas tasawuf dengan jihad.",
-    background: "/images/mansurbg.jpg",
+    role: "Ulama-Militer & Pelopor Perlawanan",
+    description: "Ulama dari Chechnya yang memimpin gerakan awal melawan penetrasi Rusia — menggabungkan retorika keagamaan (tasawuf/Naqsyabandiyah) dengan perlawanan bersenjata dan memberi inspirasi pada generasi pemimpin berikutnya.",
+    background: "/images/mansur-bg.jpeg",
     characterImage: "/images/mansur.png",
-    avatarImage: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&q=80",
+    avatarImage: "/images/mansur-avt.jpeg",
     contributions: [
-      "Memulai gerakan jihad Kaukasus (1785)",
-      "Menyebarkan tarekat Naqsyabandiyah",
-      "Menjadi inspirasi bagi Imam Shamil"
+      "Mengawali gelombang perlawanan religio-militer Kaukasus akhir abad ke-18",
+      "Menyatukan jaringan sufi dan pejuang lokal untuk melawan pasukan Kekaisaran Rusia",
+      "Menjadi figur simbolis bagi perlawanan berikutnya (termasuk Imam Shamil)"
     ]
   },
   {
     name: "Hadji Murad",
     period: "1818-1852 M",
-    role: "Panglima Perang Avar",
-    description: "Panglima perang legendaris dari suku Avar yang terkenal dengan keberanian dan strategi militernya. Kisahnya diabadikan oleh Leo Tolstoy.",
-    background: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=1920&q=80",
-    characterImage: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80",
-    avatarImage: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+    role: "Panglima Avar & Tokoh Perlawanan",
+    description: "Panglima Avar yang terkenal karena kepandaian militer dan kisah hidupnya yang kemudian diabadikan (mis. oleh Leo Tolstoy). Ia berperan penting dalam konflik Dagestan melawan Rusia.",
+    background: "/images/murad-bg.jpeg",
+    characterImage: "/images/murad.png",
+    avatarImage: "/images/murad-avt.jpeg",
     contributions: [
-      "Panglima perang terbaik di bawah Imam Shamil",
-      "Menguasai taktik gerilya pegunungan",
-      "Diabadikan dalam novel Leo Tolstoy"
+      "Pemimpin militer terkemuka dalam perjuangan Dagestan melawan Rusia",
+      "Mengembangkan taktik gerilya di pegunungan Kaukasus",
+      "Figur budaya-literer (disebutkan oleh Tolstoy) sehingga wajah/ceritanya mudah dicari"
     ]
   },
   {
-    name: "Uzun Hajji",
-    period: "1848-1920 M",
-    role: "Pemimpin Republik Islam",
-    description: "Ulama dan pemimpin politik yang mendirikan Republik Pegunungan Kaukasus Utara, negara Islam independen pertama di Kaukasus modern.",
-    background: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1920&q=80",
-    characterImage: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80",
-    avatarImage: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&q=80",
+    name: "Ismail Gasprinsky (Gaspirali)",
+    period: "1851-1914 M",
+    role: "Intelektual & Reformis (Jadid)",
+    description: "Pemikir Crimean Tatar yang mendorong reformasi pendidikan dan modernisasi kaum Muslim Turkik di wilayah Kekaisaran Rusia — pengaruhnya merambah ke Asia Tengah dan Kaukasus melalui gerakan 'Jadid'.",
+    background: "/images/ismail-bg.jpeg",
+    characterImage: "/images/ismail.png",
+    avatarImage: "/images/ismail-avt.jpg",
     contributions: [
-      "Mendirikan Republik Islam Kaukasus Utara (1917)",
-      "Memperjuangkan kemerdekaan dari Rusia",
-      "Menerapkan konstitusi berdasarkan Syariah"
+      "Mendirikan surat kabar dan jaringan pendidikan modern untuk komunitas Muslim di Rusia",
+      "Mengilhami gerakan Jadid di Asia Tengah yang mereformasi kurikulum agama dan sains",
+      "Figur dengan foto & arsip tulisan yang mudah diakses"
+    ]
+  },
+  {
+    name: "Sayyid Mir Muhammad Alim Khan (Emir Alim Khan)",
+    period: "1880-1944 M",
+    role: "Emir terakhir Bukhara",
+    description: "Penguasa terakhir Emirat Bukhara — tokoh penting akhir periode monarki Islam di Asia Tengah; foto-foto awal (Prokudin-Gorskii) tersedia sehingga wajahnya mudah ditemukan.",
+    background: "/images/sayyid-bg.jpg",
+    characterImage: "/images/sayyid.png",
+    avatarImage: "/images/sayyid-avt.jpg",
+    contributions: [
+      "Memimpin Emirate of Bukhara sampai penggulingan 1920",
+      "Simbol era terakhir pemerintahan Islam tradisional di Asia Tengah",
+      "Fotografi warna awal (Prokudin-Gorskii) memudahkan pencarian wajah & arsip"
+    ]
+  },
+  {
+    name: "Said Afandi al-Chirkawi (Said Afandi)",
+    period: "1937-2012 M",
+    role: "Ulama Sufi & Murshid Naqshbandi",
+    description: "Sufi murshid Dagestan yang sangat berpengaruh pada jamaah lokal dan regional; tokoh keagamaan modern dengan banyak foto & rekaman, wafat akibat serangan pada 2012.",
+    background: "/images/said-bg.jpeg",
+    characterImage: "/images/said.png",
+    avatarImage: "/images/said-avt.jpeg",
+    contributions: [
+      "Pemimpin spiritual Naqshbandi di Dagestan dengan jaringan murid luas",
+      "Mengorganisir majlis-majlis besar dan pendidikan sufistik modern",
+      "Kehidupan dan peristiwa kematiannya terdokumentasi luas (media & jurnal lokal)"
+    ]
+  },
+  {
+    name: "Uzun-Hajji (Uzun Hajji)",
+    period: "1848-1920 M",
+    role: "Sheikh & Emir (North Caucasian Emirate)",
+    description: "Pemimpin Naqshbandi yang menjadi Emir singkat North Caucasian Emirate (1919–1920) selama kekacauan Perang Saudara Rusia — tokoh agama-politik yang wajah/portrainya tersedia di arsip serta tulisan sejarah regional.",
+    background: "/images/hajji-bg.jpg",
+    characterImage: "/images/hajji.png",
+    avatarImage: "/images/hajji-avt.jpg",
+    contributions: [
+      "Memproklamasikan dan memimpin North Caucasian Emirate pada 1919",
+      "Mewakili gabungan peran keagamaan & politik pasca-Russian Revolution",
+      "Relevan untuk studi Islam-politik di Kaukasus modern"
     ]
   }
 ]);
+
 
 const selectHero = (index) => {
   if (currentHero.value !== index) {
