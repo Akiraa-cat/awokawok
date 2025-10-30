@@ -225,25 +225,27 @@
         <div :key="currentHero" class="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6 md:gap-8 items-start">
           
           <!-- Avatar Navigation - Show on Mobile/Tablet Only -->
-          <div class="lg:hidden flex flex-row justify-center items-center gap-3 sm:gap-4 order-1 pb-4">
-            <button 
-              v-for="(hero, idx) in heroes" 
-              :key="idx" 
-              @click="selectHero(idx)" 
-              :class="['relative group transition-all duration-300', currentHero === idx ? 'scale-110' : 'hover:scale-105']"
-              :aria-label="`Pilih ${hero.name}`"
-            >
-              <!-- Avatar Container -->
-              <div :class="['w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full overflow-hidden border-3 sm:border-4 transition-all duration-300 shadow-lg', currentHero === idx ? 'border-amber-400 shadow-amber-500/70 ring-2 sm:ring-4 ring-amber-400/40' : 'border-white/50 hover:border-amber-300']">
-                <img :src="hero.avatarImage" :alt="hero.name" class="w-full h-full object-cover">
-              </div>
-              
-              <!-- Hover Tooltip -->
-              <div class="absolute left-1/2 -translate-x-1/2 -top-12 sm:-top-14 bg-black/95 text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-2xl border border-amber-400/50 z-20" style="font-family: 'Inter', sans-serif;">
-                {{ hero.name.split(' ').slice(0, 2).join(' ') }}
-                <div class="absolute left-1/2 -translate-x-1/2 -bottom-1.5 w-3 h-3 bg-black/95 rotate-45 border-r border-b border-amber-400/50"></div>
-              </div>
-            </button>
+          <div class="lg:hidden overflow-x-auto pb-4 pt-16 order-1 no-scrollbar">
+            <div class="flex flex-row items-center gap-3 sm:gap-4 px-4">
+              <button 
+                v-for="(hero, idx) in heroes" 
+                :key="idx" 
+                @click="selectHero(idx)" 
+                :class="['relative group transition-all duration-300 flex-shrink-0', currentHero === idx ? 'scale-110' : 'hover:scale-105']"
+                :aria-label="`Pilih ${hero.name}`"
+              >
+                <!-- Avatar Container -->
+                <div :class="['w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full overflow-hidden border-3 sm:border-4 transition-all duration-300 shadow-lg', currentHero === idx ? 'border-amber-400 shadow-amber-500/70 ring-2 sm:ring-4 ring-amber-400/40' : 'border-white/50 hover:border-amber-300']">
+                  <img :src="hero.avatarImage" :alt="hero.name" class="w-full h-full object-cover">
+                </div>
+                
+                <!-- Hover Tooltip -->
+                <div class="absolute left-1/2 -translate-x-1/2 -top-16 sm:-top-20 bg-black/95 text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-2xl border border-amber-400/50 z-20" style="font-family: 'Inter', sans-serif;">
+                  {{ hero.name.split(' ').slice(0, 2).join(' ') }}
+                  <div class="absolute left-1/2 -translate-x-1/2 -bottom-1.5 w-3 h-3 bg-black/95 rotate-45 border-r border-b border-amber-400/50"></div>
+                </div>
+              </button>
+            </div>
           </div>
           
           <!-- Left: Character Info -->
@@ -905,6 +907,17 @@ html {
 .slide-down-leave-to {
   transform: translateY(100%);
   opacity: 0;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 /* Accordion Animation */
